@@ -1,4 +1,4 @@
-# JavaScript Learning Adventure 🚀
+# JavaScript Learning Adventure ![icons8-javascript-48](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/31be441f-72e8-4444-9447-1ca0ac3ae786)
 
 Welcome to my JavaScript learning adventure repository! 👋
 
