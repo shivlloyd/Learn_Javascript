@@ -175,6 +175,8 @@ console.log(userOne); // Output: { email: "shivam@gmail.com", upi: "user@ybl" }
 
 **Explanation:**
 
+![Screenshot 2024-03-14 210954](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/6c5bcc54-f288-45dc-aa4e-090821ccfc40)
+
 - In the primitive example, `myYoutubeName` and `anotherName` are primitive strings stored in the stack. When `anotherName` is assigned a new value, it creates a new memory space in the stack, hence `myYoutubeName` remains unchanged.
 
 - In the non-primitive example, `userOne` and `userTwo` are objects stored in the heap. When `userTwo` is assigned `userOne`, it creates a reference to the same memory location. Therefore, modifying `userTwo` also affects `userOne`.
