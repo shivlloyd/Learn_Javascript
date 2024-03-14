@@ -130,3 +130,51 @@ function greet(name) {
 
 - **Primitive Types**: Compared by value.
 - **Reference Types**: Compared by reference.
+
+# Stack and Heap memory in javascript
+
+**1. Primitive Data Types vs Non-Primitive Data Types**
+
+In JavaScript, data types are broadly categorized into two types: primitive and non-primitive (also known as reference types).
+
+- **Primitive Data Types**: These are immutable data types directly stored in the stack memory. Examples include numbers, strings, booleans, null, undefined, and symbols.
+
+- **Non-Primitive Data Types**: These are mutable data types stored in the heap memory. Examples include objects, arrays, functions, and dates. Non-primitive data types store references to their memory locations rather than the actual values.
+
+**2. Stack Memory vs Heap Memory**
+
+- **Stack Memory**: It is a small, fixed-size memory that stores primitive values and function calls. Each function call creates a new frame on the stack, and when the function finishes execution, its frame is removed. Stack memory operates in a Last In, First Out (LIFO) manner.
+
+- **Heap Memory**: It is a larger, dynamic memory that stores non-primitive values. Objects, arrays, and other non-primitive data types are allocated memory in the heap. Memory allocation and deallocation in the heap are managed by the JavaScript engine's garbage collector.
+
+**3. Passing by Value vs Passing by Reference**
+
+- **Passing by Value**: When passing primitive data types as arguments or assigning them to variables, a copy of the value is created. Any changes made to the copied value do not affect the original value.
+
+- **Passing by Reference**: When passing non-primitive data types as arguments or assigning them to variables, a reference to the original value's memory location is passed. Therefore, changes made to the referenced object affect the original object as well.
+
+**Code Example:**
+
+```javascript
+// Primitive Data Types in Stack
+let myYoutubeName = "ShivamKumar";
+let anotherName = myYoutubeName;
+anotherName = "ChaiAurCode";
+console.log(myYoutubeName); // Output: ShivamKumar
+console.log(anotherName); // Output: ChaiAurCode
+
+// Non-Primitive Data Types in Heap
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+let userTwo = userOne;
+userTwo.email = "shivam@gmail.com";
+console.log(userOne); // Output: { email: "shivam@gmail.com", upi: "user@ybl" }
+```
+
+**Explanation:**
+
+- In the primitive example, `myYoutubeName` and `anotherName` are primitive strings stored in the stack. When `anotherName` is assigned a new value, it creates a new memory space in the stack, hence `myYoutubeName` remains unchanged.
+
+- In the non-primitive example, `userOne` and `userTwo` are objects stored in the heap. When `userTwo` is assigned `userOne`, it creates a reference to the same memory location. Therefore, modifying `userTwo` also affects `userOne`.
