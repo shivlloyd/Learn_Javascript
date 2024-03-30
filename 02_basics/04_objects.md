@@ -97,3 +97,59 @@ console.log(tinderUser.hasOwnProperty("isLog"));
 ## Summary
 
 This JavaScript code demonstrates the creation, manipulation, and access of objects and arrays of objects. It covers techniques like adding properties to objects, merging objects, accessing object properties, and using object methods like `Object.keys()`, `Object.values()`, and `Object.entries()`. The code provides a comprehensive overview of basic JavaScript object manipulation and array handling techniques.
+
+# Object de-structure and JSON API intro
+
+In this code snippet, we'll explore JavaScript object destructuring, JSON API usage, and its related concepts.
+
+## JavaScript Object Destructuring:
+
+Object destructuring allows you to extract specific properties from objects into variables, providing a more concise syntax. Let's break down the code:
+
+```javascript
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "shivam",
+};
+
+const { courseInstructor: instructor } = course;
+
+console.log(courseInstructor);
+console.log(instructor);
+```
+
+- First, we define an object named `course` containing properties like `coursename`, `price`, and `courseInstructor`.
+- Then, we destructure the `course` object to extract the `courseInstructor` property and assign it to a variable named `instructor`.
+- Finally, we log both `courseInstructor` and `instructor` variables to the console.
+
+## Output and Reasoning:
+
+```plaintext
+undefined
+"shivam"
+```
+
+- `console.log(courseInstructor);`: This line logs `undefined`. This happens because `courseInstructor` is not defined as a standalone variable. It was used as a property alias during destructuring, and it's not accessible directly.
+- `console.log(instructor);`: This line logs `"shivam"`. Here, `instructor` is the variable where we stored the value of `course.courseInstructor` during destructuring. Hence, it correctly logs the instructor's name.
+
+## JSON API Intro:
+
+The following JSON structures seem to represent some data possibly fetched from an API.
+
+```json
+{
+  "name": "shivam",
+  "coursename": "js in hindi",
+  "price": "free"
+}
+```
+
+```json
+[{}, {}, {}]
+```
+
+- The first JSON object represents data with properties like `name`, `coursename`, and `price`. It seems to describe a course with the instructor's name, course name, and price.
+- The second JSON structure seems to be an array with three empty objects.
+
+This code snippet and explanation provide an overview of object destructuring in JavaScript and basic understanding of JSON data, which is often used in APIs.
