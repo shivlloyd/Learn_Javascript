@@ -1,5 +1,17 @@
 # How does javascript execute code + call stack
 
+![1](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/f14bf8ef-9e27-4f14-8a41-9463c2f6ae7e)
+
+![2](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/56b26bd9-56ca-40e7-82e1-5a40ab015b66)
+
+![3](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/26f7e34e-a76c-4c6e-abc8-7e629d7a77ba)
+
+![4](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/bb0eb4d2-6bc5-419a-a485-5ed9bc587552)
+
+![5](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/7fa3fbac-c0f5-42db-88f5-a1d2394df1b5)
+
+![6](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/fbd68602-53dc-42ed-80d1-4db9a2cbd7ca)
+
 ## How JavaScript Executes Code
 
 JavaScript code execution happens in two main phases: the memory creation phase and the execution phase.
