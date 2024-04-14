@@ -1,5 +1,9 @@
 # Async JavaScript Fundamentals: Understanding Asynchronous Programming
 
+![1](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/f983b72d-bcaa-49a5-bf0e-ef35f6c2fe33)
+![2](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/a3b184fe-30e2-47ad-8b3a-15b2f09a752b)
+![3](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/3e753f8b-0d2e-4b25-a11b-e10d18ebbf4c)
+
 JavaScript is inherently synchronous and single-threaded, meaning it executes code line by line and can only perform one operation at a time. However, it also supports asynchronous programming, which allows certain operations to be executed independently, without blocking the main thread.
 
 ### Asynchronous vs. Synchronous
