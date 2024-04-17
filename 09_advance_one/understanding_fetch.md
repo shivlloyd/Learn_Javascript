@@ -1,5 +1,8 @@
 # Unnderstanding Fetch in JavaScript
 
+![Screenshot 2024-04-17 131331](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/fcaaa3f9-da80-41a5-bcca-be642f4e5315)
+![Screenshot 2024-04-17 131419](https://github.com/shivlloyd/Learn_Javascript/assets/41133545/44744f89-8cdf-495c-a27e-68d770a63156)
+
 Fetch is a modern API provided by browsers for making HTTP requests in JavaScript. It allows you to asynchronously fetch resources from the network. When you initiate a fetch request, it returns a Promise that resolves to the response of that request.
 
 ### How Fetch Handles Requests in Priority Queue
